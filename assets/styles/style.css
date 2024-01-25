@@ -75,7 +75,8 @@ a {
 .skill_sectionLeft {
   margin-left: 0px;
   background-repeat: no-repeat;
-  padding: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
 }
 
 .skill_section {
@@ -124,7 +125,7 @@ a {
 
 .img4 {
   position: relative;
-  top: -300px;
+  top: -250px;
   right: -500px;
   border: 1px solid white;
   width: 50px;
