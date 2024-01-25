@@ -1,1 +1,36 @@
+.navbar {
+    @include headerFlex;
+    padding-top: 30px;
+    padding-bottom: 107px;
+    background-color: aqua;
 
+    .header-list {
+        @include headerFlex;
+        gap: 20px;
+
+        li a {
+            @include headerFlex;
+            padding: 10px 5px;
+            color: #0a033c;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            
+        }
+    }
+
+    .header-sign-up {
+        @include headerFlex;
+        gap: 30px;
+
+        a {
+            @include headerFlex;
+            color: #0a033c;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
