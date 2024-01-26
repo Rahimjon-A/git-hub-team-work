@@ -1,0 +1,90 @@
+body {
+  background-color: #f7f5fa;
+}
+
+.contact {
+  .contact__title {
+    text-align: center;
+    color: #0a033c;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    padding-left: 242px;
+    padding-right: 300px;
+  }
+  &__text {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 180px;
+    color: #5d5a6f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  &__btn {
+    margin: 25px 449px 60px;
+    width: 162px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9c4df4;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .call {
+    background-color: #fff;
+    width: 1060px;
+    height: 600px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .call__window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../images/images/section-1-img.png");
+    width: 1000px;
+    height: 540px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 170px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .Window__img {
+    position: relative;
+    z-index: -1;
+    right: -923px;
+    top: -157px;
+  }
+
+  .call__bottom {
+    @include dflex($alignItem: end);
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .bott__img {
+    border-radius: 10px;
+    border: 10px solid white;
+  }
+
+  .connection__cards {
+    @include dflex;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+  }
+  .conn__card {
+    display: flex;
+    align-items: center;
+    width: 333.333px;
+    height: 100px;
+    border-radius: 10px;
+    background: #fff;
+    padding-left: 15px;
+    gap: 20px;
+  }
+}
