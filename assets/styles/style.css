@@ -94,186 +94,108 @@ a {
   text-decoration: none;
 }
 
-.header {
-  margin-bottom: 150px;
-  width: 100%;
-  position: relative;
+.section-2 {
+  margin-bottom: 120px;
 }
-.header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 107px;
+.section-2 .section-2__top .section-2__title {
+  text-align: center;
 }
-.header .navbar .header-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-.header .navbar .header-list li a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 5px;
-  color: #0a033c;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.header .navbar .header-sign-up {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-}
-.header .navbar .header-sign-up a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  color: #0a033c;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.header .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 120px;
-}
-.header .hero .hero-left .hero-motto {
-  display: inline-block;
-  padding: 15px 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-.header .hero .hero-left .hero-motto span {
-  color: #ff6652;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: normal;
-  background-color: #fff;
-}
-.header .hero .hero-left .hero-title {
-  color: #0a033c;
-  font-size: 50px;
+.section-2 .section-2__top .section-2__title h1 {
+  color: #0A033C;
+  font-size: 45px;
   font-weight: 700;
-  line-height: 75px;
+  line-height: 55px;
+  margin-bottom: 20px;
 }
-.header .hero .hero-left .hero-subtitle {
-  color: #5d5a6f;
+.section-2 .section-2__top .section-2__title p {
+  color: #5D5A6F;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 50px;
+}
+.section-2 .section-2__top .section-2__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+  margin-bottom: 45px;
+}
+.section-2 .section-2__top .section-2__btn button {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  color: #0A033C;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.section-2 .section-2__top .section-2__btn button:hover {
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FF6652;
+  color: white;
+}
+.section-2 .section-2__bot .section-2-content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
   margin-bottom: 40px;
 }
-.header .hero .hero-left .header-input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 10px;
+.section-2 .section-2__bot .section-2-content-top .section-2__card {
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 15px;
+  background: #FFF;
 }
-.header .hero .hero-left .header-input select {
-  padding: 22px 20px;
-  background-color: #fff;
-  color: rgba(93, 90, 111, 0.6);
+.section-2 .section-2__bot .section-2-content-top .section-2__card img {
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+.section-2 .section-2__bot .section-2-content-top .section-2__card h3 {
+  color: #0A033C;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 15px;
+  background-color: transparent;
+}
+.section-2 .section-2__bot .section-2-content-top .section-2__card p {
+  color: #5D5A6F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+.section-2 .section-2__bot .section-2-content-top .section-2__card button {
+  color: #9C4DF4;
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
-  border: none;
-  border-radius: 10px;
-  outline: none;
+  line-height: 20px;
+  padding: 12px 31px;
+  border-radius: 5px;
+  border: 1px solid #9C4DF4;
+  margin-bottom: 30px;
+  background-color: transparent;
 }
-.header .hero .hero-left .header-input select option {
-  color: rgba(93, 90, 111, 0.6);
+.section-2 .section-2__bot .section-2-content-top .section-2__card button:hover {
+  background-color: #9C4DF4;
+  color: white;
+}
+.section-2 .section-2__button {
+  text-align: center;
+}
+.section-2 .section-2__button button {
   font-size: 16px;
   font-weight: 500;
-  line-height: normal;
-}
-.header .hero .hero-left .header-input input {
-  width: 100%;
-  height: 100%;
-  color: rgba(93, 90, 111, 0.6);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: normal;
+  line-height: 20px;
+  border-radius: 10px;
+  background: #9C4DF4;
+  padding: 20px 30px;
+  color: white;
   border: none;
-  background-color: #fff;
-  border-left: 1px solid grey;
-  outline: none;
-  padding-left: 20px;
-}
-.header .hero .hero-left .header-input button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5px;
-  padding: 13px 30px;
-  border-radius: 10px;
-  background: #9c4df4;
-  color: #fff;
-  border: none;
-  margin-right: 5px;
-}
-.header .hero .hero-left .header-input button img {
-  background-color: #9c4df4;
-}
-.header .hero .hero-right {
-  padding: 0 50px;
-  border-radius: 20px;
-  background: linear-gradient(rgba(255, 102, 82, 0), #FF6652);
-}
-.header .hero .hero-right img {
-  background: transparent;
-}
-.header .header-book {
-  padding: 15px 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  top: 149px;
-  right: 760px;
-}
-.header .header-book img {
-  background-color: #fff;
-}
-.header .header-present {
-  padding: 15px 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  top: 470px;
-  right: 680px;
-}
-.header .header-present img {
-  background-color: #fff;
-}
-.header .header-light {
-  padding: 15px 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  top: 208px;
-  right: 248px;
-}
-.header .header-light img {
-  background-color: #fff;
-}
-.header .header-blocks {
-  padding: 15px 15px;
-  background-color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  top: 708px;
-  right: 158px;
-}
-.header .header-blocks img {
-  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
